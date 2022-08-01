@@ -35,4 +35,4 @@ spec:
       volumes:
         - name: mongodb-pvc
           persistentVolumeClaim:
-            claimName: mongo-pvc
+            claimName: pvc-manual
